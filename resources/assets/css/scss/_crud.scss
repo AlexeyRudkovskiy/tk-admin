@@ -1,0 +1,17 @@
+@import "variables";
+@import "mixins";
+
+.crud-actions {
+  ul {
+    display: flex;
+    flex-direction: row-reverse;
+
+    li {
+      margin-right: $default-padding;
+
+      &:first-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}

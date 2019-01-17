@@ -1,0 +1,139 @@
+@import "variables";
+@import "mixins";
+
+.file-manager {
+  display: flex;
+
+  .file-manager-file-info {
+    width: $file-manager-file-info-width;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+
+  .file-manager-files {
+    width: 100%;
+    flex-shrink: 1;
+    flex-grow: 0;
+    background-color: white;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .05);
+    border-radius: 3px;
+    overflow: hidden;
+
+    .uploading {
+      padding: $default-padding / 4 * 3;
+      font-size: 0.8rem;
+      background-color: rgba(black, 0.02);
+
+      box-sizing: border-box;
+
+      .uploading-progress {
+        margin-top: $default-padding / 2;
+      }
+    }
+
+    .file-manager-header {
+      box-sizing: border-box;
+      padding: $default-padding / 4 * 3;
+      font-size: 0.8rem;
+      box-shadow: 0 3px 6px rgba(black, 0.05);
+
+      span {
+        margin-right: $default-padding / 4 * 3;
+      }
+
+      .current-folder {
+        opacity: 0.8;
+        font-weight: bold;
+      }
+    }
+
+    .file-container {
+      border: 1px solid transparent;
+      padding: $default-padding / 4 * 3;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-size: 0.8rem;
+      user-select: none;
+
+      box-sizing: border-box;
+
+      &:first-child {
+        border-radius: 3px 3px 0 0;
+      }
+
+      &:last-child {
+        border-radius: 0 0 3px 3px;
+      }
+
+      &:hover {
+        border-color: $file-manager-file-hover-border-color;
+
+        .file-actions {
+          display: block;
+        }
+      }
+
+      .file-icon {
+        img {
+          width: $default-padding * 1.5;
+          height: $default-padding * 1.5;
+          margin-right: $default-padding / 2;
+        }
+      }
+
+      .file-input-field {
+        input {
+          margin-top: -1px;
+          position: relative;
+          top: 1px;
+        }
+      }
+
+      .file-rename-apply {
+        margin-left: $default-padding / 2;
+        margin-right: $default-padding / 2;
+
+        i {
+          opacity: 0.6;
+          color: #27ae60;
+        }
+
+        &:hover {
+          i {
+            opacity: 1;
+          }
+        }
+      }
+
+      .file-size {
+        margin-left: $default-padding / 2;
+      }
+
+      .file-actions {
+        margin-left: auto;
+        display: none;
+
+        .file-actions-list {
+          display: flex;
+          align-items: center;
+
+          .file-action {
+            box-sizing: border-box;
+            padding: $default-padding / 2 $default-padding / 4 * 3;
+            margin-top: -$default-padding / 2;
+            margin-bottom: -$default-padding / 2;
+            border-radius: 3px;
+            overflow: hidden;
+            opacity: 0.8;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

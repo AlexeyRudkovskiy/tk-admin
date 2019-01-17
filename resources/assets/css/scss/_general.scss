@@ -1,0 +1,21 @@
+.hidden {
+  display: none;
+}
+
+@for $i from 0 through 10 {
+  .mg-t-#{$i} { margin-top: $i };
+  .mg-b-#{$i} { margin-bottom: $i };
+  .mg-r-#{$i} { margin-right: $i };
+  .mg-l-#{$i} { margin-left: $i };
+}
+
+$i: 0;
+
+@while ($i <= 50) {
+  .mg-t-#{$i} { margin-top: $i };
+  .mg-b-#{$i} { margin-bottom: $i };
+  .mg-r-#{$i} { margin-right: $i };
+  .mg-l-#{$i} { margin-left: $i };
+
+  $i: $i + 5;
+}

@@ -1,0 +1,11 @@
+@import "variables";
+
+.alert {
+  box-shadow: 0 3px 6px rgba(black, .05);
+}
+
+.flash-alerts {
+  .alert {
+    margin-bottom: $default-padding;
+  }
+}

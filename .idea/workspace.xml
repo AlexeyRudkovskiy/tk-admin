@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31dc0013-4fc0-4773-ab61-a6dac034e37d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/EntityFields/MetaBoolField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/css/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/custom.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/css/scss/fields/_wysiwyg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/scss/fields/_wysiwyg.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/admin.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/admin.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/typescript/modules/file-type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/typescript/modules/file-type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/typescript/popups/file-popup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/typescript/popups/file-popup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/typescript/vue-components/AddMenuItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/typescript/vue-components/AddMenuItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/typescript/vue-components/MenuField.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/typescript/vue-components/MenuField.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/link_edit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/link_edit.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-link-create.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-link-create.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/uploader-placeholder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/uploader-placeholder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/config/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/config/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form/widget/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/form/widget/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form/widget/relation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/form/widget/relation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contracts/AbstractEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contracts/AbstractEntity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityFields/CategoriesField.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityFields/CategoriesField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityFields/FileField.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityFields/FileField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityFields/MenuField.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityFields/MenuField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityFields/SimpleRelationField.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityFields/SimpleRelationField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityFields/SlugField.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityFields/SlugField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityFields/WYSIWYGField.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityFields/WYSIWYGField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Controllers/API/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Controllers/API/SearchController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Controllers/ConfigController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Controllers/ConfigController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Category.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MenuField.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EntityFields/MenuField.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/form/widget/menu.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Http/Controllers/API/SearchController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>action</find>
+      <find>file-size</find>
+      <find>type</find>
+      <find>custom</find>
+      <find>scripts</find>
+      <find>delete</find>
+      <find>file-container</find>
+      <find>progre</find>
+      <find>user</find>
+      <find>media-grid-item-file</find>
+      <find>console.lo</find>
+      <find>console.log</find>
+      <find>breadc</find>
+      <find>manually</find>
+      <find>drop</find>
+      <find>Gallery</find>
+      <find>.offsetTop</find>
+      <find>findParent</find>
+      <find>header</find>
+      <find>filePopup</find>
+      <find>remove</find>
+      <find>previewDelete</find>
+      <find>preview</find>
+      <find>ul {</find>
+      <find>-content</find>
+      <find>table</find>
+      <find>Select</find>
+      <find>progress</find>
+      <find>new Upload</find>
+      <find>upload</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Right</replace>
+      <replace>entity.</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/vue-components/MenuItem.vue" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/image-change.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/image-delete.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/gallery-delete-item.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/image-edit.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/table-delete.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/table-delete-column.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/table_add_column.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/table_add_row.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/table_delete_row.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-italic.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-bold.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-list-indent.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-list-ordered.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-list-outdent.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-list-unordered.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-media.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-read-more.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-source-code.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-table.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-text-align-center.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-text-align-justify.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-text-align-left.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-text-align-right.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-underline.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-video.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/editor.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/gallery-add.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-gallery.ts" />
+        <option value="$PROJECT_DIR$/src/EntityFields/SlugField.php" />
+        <option value="$PROJECT_DIR$/src/EntityFields/MetaBoolField.php" />
+        <option value="$PROJECT_DIR$/src/EntityFields/FileField.php" />
+        <option value="$PROJECT_DIR$/src/EntityFields/CategoriesField.php" />
+        <option value="$PROJECT_DIR$/src/Contracts/AbstractEntity.php" />
+        <option value="$PROJECT_DIR$/resources/assets/css/scss/fields/_wysiwyg.scss" />
+        <option value="$PROJECT_DIR$/src/EntityFields/WYSIWYGField.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/popups/file-popup.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/link_edit.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-link-create.ts" />
+        <option value="$PROJECT_DIR$/resources/views/form/widget/relation.blade.php" />
+        <option value="$PROJECT_DIR$/src/EntityFields/SimpleRelationField.php" />
+        <option value="$PROJECT_DIR$/src/Http/Controllers/ConfigController.php" />
+        <option value="$PROJECT_DIR$/resources/views/config/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/modules/file-type.ts" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/uploader-placeholder.ts" />
+        <option value="$PROJECT_DIR$/src/Models/Category.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/vue-components/AddMenuItem.vue" />
+        <option value="$PROJECT_DIR$/resources/assets/js/typescript/vue-components/MenuField.vue" />
+        <option value="$PROJECT_DIR$/src/EntityFields/MenuField.php" />
+        <option value="$PROJECT_DIR$/resources/views/form/widget/menu.blade.php" />
+        <option value="$PROJECT_DIR$/src/Http/Controllers/API/SearchController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/fabpot/goutte" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="994" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tk-admin.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tk-admin.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tk-admin.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tk-admin.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tk-admin.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tk-admin.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tk-admin.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tk-admin.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="uploplace&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/assets/js/typescript/wysiwyg/uploader-placeholder.ts&#10;WYS&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/EntityFields/WYSIWYGField.php&#10;conf/index.&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/config/index.blade.php&#10;ViewComposer&#9;null&#9;null&#10;CrudController&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Http/Controllers/CrudController.php&#10;crud/index.b&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/crud/index.blade.php&#10;mediacontroller&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Http/Controllers/MediaController.php&#10;link&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/assets/js/typescript/wysiwyg/floating_actions/link_edit.ts&#10;web.php&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/routes/web.php&#10;AdmiMi&#9;null&#9;null&#10;SlugField&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/EntityFields/SlugField.php&#10;Repository&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Services/Repository.php&#10;TextField&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/EntityFields/TextField.php&#10;Text&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/EntityFields/TextField.php&#10;Crudcontroller&#9;null&#9;null&#10;Abs&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Contracts/AbstractEntity.php&#10;AbstractEnt&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Contracts/AbstractEntity.php&#10;SlugFie&#9;null&#9;null&#10;MenuEntity&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Entities/MenuEntity.php&#10;AbsEntity&#9;null&#9;null&#10;MenuController&#9;null&#9;null&#10;MenuFIeld&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/EntityFields/MenuField.php&#10;editor.ts&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/assets/js/typescript/wysiwyg/editor.ts&#10;table.ts&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-table.ts&#10;file.scss&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/assets/css/scss/_file-manager.scss&#10;FileManaController&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Http/Controllers/FileManagerController.php&#10;file.vu&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/assets/js/typescript/vue-components/file-manager/FileManager.vue&#10;FileController&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Http/Controllers/FileManagerController.php&#10;conf-delete.&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/assets/js/typescript/modules/confirm-delete.ts&#10;file&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/assets/js/typescript/vue-components/file-manager/File.vue&#10;MediaController&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Http/Controllers/MediaController.php&#10;crud/index.php&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/crud/index.blade.php&#10;media/index&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/media/index.blade.php&#10;dashboard.php&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/lang/ua/dashboard.php&#10;dashboard.blade.php&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/layout/dashboard.blade.php&#10;create_men&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/database/migrations/2018_06_02_000000_create_menus_table.php&#10;create_user&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/database/migrations/2018_06_00_000000_create_users_table.php&#10;PasswordFiel&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/EntityFields/PasswordField.php&#10;StorageSer&#9;null&#9;null&#10;UploadFile&#9;null&#9;null&#10;media/index.bl&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/media/index.blade.php&#10;rela.blade&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/form/widget/relation.blade.php&#10;SimpleRela&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/EntityFields/SimpleRelationField.php&#10;categoriesfield&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/EntityFields/CategoriesField.php&#10;Menu&#9;null&#9;null&#10;Dashboardcontrolle&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/src/Http/Controllers/DashboardController.php&#10;dash.blade.php&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/layout/dashboard.blade.php&#10;relation.blade.php&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/form/widget/relation.blade.php&#10;signin&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/auth/signin.blade.php&#10;dashboard.&#9;FILE&#9;file:///Users/alexey/PhpstormProjects/tk-admin.dev/resources/views/layout/dashboard.blade.php" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Sqlite (Xerial)" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/ServiceProviders" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/Contracts" />
+      <recent name="$PROJECT_DIR$/src/container" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions" />
+      <recent name="$PROJECT_DIR$/resources/assets/js/lib" />
+      <recent name="$PROJECT_DIR$/resources/assets/icons/files-types" />
+      <recent name="$PROJECT_DIR$/database/migrations" />
+      <recent name="$PROJECT_DIR$/resources/assets/libs/ace" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31dc0013-4fc0-4773-ab61-a6dac034e37d" name="Default" comment="" />
+      <created>1532110867539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532110867539</updated>
+      <workItem from="1532110869250" duration="273000" />
+      <workItem from="1532111176791" duration="10882000" />
+      <workItem from="1532173021187" duration="2134000" />
+      <workItem from="1532260014251" duration="413000" />
+      <workItem from="1532436981658" duration="5359000" />
+      <workItem from="1532522392099" duration="23375000" />
+      <workItem from="1532698655157" duration="17540000" />
+      <workItem from="1533213295306" duration="12665000" />
+      <workItem from="1533304513776" duration="15721000" />
+      <workItem from="1533557164311" duration="17572000" />
+      <workItem from="1533987272648" duration="9315000" />
+      <workItem from="1534077443113" duration="12875000" />
+      <workItem from="1534111025671" duration="3708000" />
+      <workItem from="1534251688449" duration="78000" />
+      <workItem from="1534432871978" duration="587000" />
+      <workItem from="1534463927101" duration="3000" />
+      <workItem from="1534503832023" duration="5092000" />
+      <workItem from="1535022828640" duration="15059000" />
+      <workItem from="1535220667362" duration="16071000" />
+      <workItem from="1535297883125" duration="12231000" />
+      <workItem from="1535545174005" duration="12929000" />
+      <workItem from="1535635420694" duration="15151000" />
+      <workItem from="1535916169347" duration="2462000" />
+      <workItem from="1536325323872" duration="15226000" />
+      <workItem from="1536489823274" duration="6877000" />
+      <workItem from="1536582899232" duration="3911000" />
+      <workItem from="1538315414406" duration="8424000" />
+      <workItem from="1538411386224" duration="11899000" />
+      <workItem from="1538930578969" duration="644000" />
+      <workItem from="1541972434812" duration="7086000" />
+      <workItem from="1541988127503" duration="6960000" />
+      <workItem from="1542061450363" duration="2669000" />
+      <workItem from="1542123750870" duration="2822000" />
+      <workItem from="1544133389828" duration="2552000" />
+      <workItem from="1545162272110" duration="1918000" />
+      <workItem from="1545214902727" duration="3606000" />
+      <workItem from="1545605964073" duration="3904000" />
+      <workItem from="1546034901515" duration="6404000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="296397000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="994" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32998884" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3522854" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20766774" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.185836" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="1" weight="0.32998884" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="0" visible="true" weight="0.33110368" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32998884" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/table_delete_row.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-italic.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-bold.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-list-indent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-list-ordered.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-list-outdent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-list-unordered.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-source-code.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-text-align-center.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-text-align-justify.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-text-align-left.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-text-align-right.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-underline.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-video.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/simple-action.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-read-more.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-media.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-table.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" selection-start-line="22" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/abstract-action.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contracts/EntityField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="275" selection-start-line="275" selection-end-line="275" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntityFields/BooleanField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0ac4c755-7e1b-43f3-b4c8-6c27616f6839/schema/main/table/menuables">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntityFields/SlugField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntityFields/MetaBoolField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-gallery.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contracts/AbstractEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="139" column="60" selection-start-line="139" selection-start-column="60" selection-end-line="139" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/scss/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/scss/fields/_wysiwyg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="162" column="5" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/gallery-add.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntityFields/WYSIWYGField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/popups/file-popup.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/floating_actions/link_edit.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/toolbar-actions/action-link-create.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/form/widget/relation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/config/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Http/Controllers/ConfigController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntityFields/SimpleRelationField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="63" column="58" lean-forward="true" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntityFields/CategoriesField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/gallery.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/editor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="419" column="18" selection-start-line="419" selection-start-column="18" selection-end-line="419" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/modules/file-type.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="117" column="46" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntityFields/FileField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/less/progress-bar.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/wysiwyg/uploader-placeholder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/vue-components/AddMenuItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/vue-components/MenuBuilder.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/typescript/vue-components/MenuField.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntityFields/MenuField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/form/widget/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Http/Controllers/API/SearchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

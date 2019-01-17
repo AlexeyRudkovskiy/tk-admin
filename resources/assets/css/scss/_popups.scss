@@ -1,0 +1,124 @@
+@import "variables";
+@import "mixins";
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(black, .5);
+  z-index: 999;
+
+  overflow-y: scroll;
+
+  &.hidden {
+    display: none;
+  }
+
+  &.fullpage {
+    overflow: hidden;
+  }
+
+  .popup-content-container {
+    box-shadow: 0 3px $default-padding rgba(black, .16);
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: $default-padding * 5;
+    margin-left: -200px;
+    margin-bottom: $default-padding * 5;
+    border-radius: 3px;
+    height: auto;
+    overflow: hidden;
+
+    //&::after {
+    //  content: '';
+    //  position: absolute;
+    //  top: 0;
+    //  left: 0;
+    //  width: 100%;
+    //  height: 100%;
+    //  background-color: rgba(black, .3);
+    //}
+
+    &.popup-small {
+      width: 400px;
+      margin-left: -200px;
+    }
+
+    &.popup-medium {
+      width: 600px;
+      margin-left: -300px;
+    }
+
+    &.popup-large {
+      width: 1019px;
+      margin-left: -(1019px / 2);
+    }
+
+    &.popup-fullpage {
+      width: 100%;
+      height: 100vh;
+      margin-left: 0;
+      top: 0;
+      left: 0;
+      border-radius: 0;
+      overflow-y: scroll;
+
+      .popup-header {
+        position: sticky;
+        background-color: white;
+        top: 0;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+        z-index: 100;
+      }
+
+      .media-container {
+        margin-top: $default-padding;
+
+        .media-grid {
+          margin: 0;
+
+          .media-grid-item {
+            flex-shrink: 1;
+            flex-grow: 1;
+            max-width: 175px;
+            min-width: 100px;
+            width: auto;
+
+            &.media-grid-item-file {
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .popup-header {
+      display: flex;
+      justify-items: center;
+
+      box-sizing: border-box;
+      padding: $default-padding;
+
+      .popup-close {
+        margin-left: auto;
+        color: rgba(red, .5);
+
+        &:hover {
+          color: rgba(red, .7);
+          cursor: pointer;
+        }
+      }
+    }
+
+    .popup-content {
+      box-sizing: border-box;
+      padding: $default-padding;
+      padding-top: 0;
+    }
+  }
+}
