@@ -1,0 +1,1 @@
+{{ $fieldObject->getRelatedField() }}

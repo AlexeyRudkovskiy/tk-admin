@@ -1,0 +1,19 @@
+@import "../variables";
+@import "../mixins";
+
+.wysiwyg-container {
+  .wysiwyg-content {
+    .uploader-placeholder {
+      padding: $default-padding;
+      background-color: rgba(0, 0, 0, .025);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, .05);
+
+      max-width: 300px;
+
+      margin-top: $default-padding;
+      margin-bottom: $default-padding;
+
+      box-sizing: border-box;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import "../variables";
+
+$gallery-item-padding: 2.5px;
+$gallery-photo-height: 124px;
+
+.wysiwyg-content {
+  .post-gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: $default-padding;
+    margin-bottom: $default-padding;
+
+    margin-left: -$gallery-item-padding;
+    z-index: 1;
+
+    .gallery-item {
+      width: 25%;
+
+      box-sizing: border-box;
+      padding: $gallery-item-padding;
+      padding-top: 0;
+
+      position: relative;
+
+      img {
+        width: 100%;
+        height: $gallery-photo-height;
+      }
+    }
+  }
+}

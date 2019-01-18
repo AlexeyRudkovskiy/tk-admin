@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "amd",
+    "noImplicitAny": false,
+    "jsx": "preserve",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "vendor",
+    "node_modules"
+  ]
+}
